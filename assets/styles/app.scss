@@ -1,0 +1,22 @@
+
+
+// // customize some Bootstrap variables
+$primary: darken(#428bca, 20%);
+
+// the ~ allows you to reference things in node_modules
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: rgba(0, 0, 0, 0.164);
+    color:rgb(77, 77, 77);
+    margin: 150px;
+}
+h1{
+    text-align: center;
+    color: black;
+    margin: 35px;
+}
+a{
+    text-decoration: none;
+    color: rgb(87, 12, 12);
+}
